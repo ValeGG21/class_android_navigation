@@ -29,19 +29,19 @@ fun Section_2(pagerState : PagerState){
             .fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally) {
             val colorDorado = colorResource(id = R.color.dorado)
-            Filas(img = R.drawable.campo, descript = "imagen2")
-            Text(text = "Los abundantes campos de cultivos",
+            Filas(img = R.drawable.page2, descript = "imagen2")
+            Text(text = "¿Por qué es importante?",
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(20.dp, 10.dp),
                 textAlign = TextAlign.Center,
                 fontSize = 21.sp,
                 color = colorDorado)
-            Text(text = "Los campos de cultivos, antaño símbolos de subsistencia, se han transformado" +
-                    " en verdaderos bastiones de abundancia gracias a la innovación y la tecnología." +
-                    " Con prácticas agrícolas avanzadas, cultivos modificados genéticamente y sistemas" +
-                    " de riego precisos, la agricultura moderna ha alcanzado niveles de productividad " +
-                    "sin precedentes.",
+            Text(text = "El agro es esencial para la seguridad alimentaria, el desarrollo económico, y" +
+                    "la sostenibilidad ambiental. Proporciona alimentos, empleo en áreas rurales," +
+                    "y promueve la innovación tecnológica. Además, ayuda a mitigar el cambio climático" +
+                    "y mantiene las tradiciones culturales. En resumen, el agro es vital para " +
+                    "la alimentación, la economía y el medio ambiente.",
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(20.dp),

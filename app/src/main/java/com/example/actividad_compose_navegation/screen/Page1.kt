@@ -65,18 +65,18 @@ fun Section_1(pagerState : PagerState){
             .fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally) {
             val colorDorado = colorResource(id = R.color.dorado)
-            Filas(img = R.drawable.tecnologiacampo, descript = "pagina1")
-            Text(text = "Avances en la agricultura",
+            Filas(img = R.drawable.page1, descript = "pagina1")
+            Text(text = "¿Qué es Agro?",
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(20.dp, 10.dp),
                 textAlign = TextAlign.Center,
                 fontSize = 21.sp,
                 color = colorDorado)
-            Text(text = "La agricultura ha sido una actividad fundamental desde tiempos antiguos," +
-                    " pero en las últimas décadas, el avance tecnológico ha acelerado su evolución." +
-                    " La tecnología ha revolucionado los campos agrícolas, introduciendo innovaciones " +
-                    "que transforman la manera en que se cultiva, cosecha y distribuye la comida..",
+            Text(text = "Agro es un término abreviado que se refiere a todo lo relacionado con la agricultura" +
+                    "y las actividades agrícolas, incluyendo la producción de plantas y animales," +
+                    "las tecnologías y prácticas innovadoras para mejorar la eficiencia y sostenibilidad," +
+                    "la economía agrícola, la ciencia del suelo y la agronomía, así como el agroturismo.",
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(20.dp),

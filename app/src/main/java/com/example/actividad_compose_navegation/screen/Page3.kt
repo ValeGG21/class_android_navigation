@@ -33,32 +33,21 @@ fun Section_3(navegationHostController: NavHostController, pagerState: PagerStat
             .fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally) {
             val colorDorado = colorResource(id = R.color.dorado)
-            Filas(img = R.drawable.cosecha, descript = "imagen3")
-            Text(text = "Tiempo de Crecimiento",
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(20.dp, 10.dp),
-                textAlign = TextAlign.Center,
-                fontSize = 21.sp,
-                color = colorDorado)
-            Text(text = "El tiempo de crecimiento de las plantas varía según la especie y las" +
-                    " condiciones ambientales. Desde la germinación de la semilla hasta la maduración" +
-                    " de la planta, cada etapa del crecimiento es crucial para el desarrollo saludable" +
-                    " de la planta. Factores como la luz solar, la temperatura y el agua afectan el " +
-                    "tiempo y la calidad del crecimiento de las plantas.",
+            Filas(img = R.drawable.page3, descript = "imagen3")
+            Text(text = "Si deseas conocer más sobre el agro dale \"INGRESAR\" ",
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(20.dp),
-                textAlign = TextAlign.Justify)
+                textAlign = TextAlign.Center)
             Column(modifier = Modifier
                 .fillMaxWidth(),
                 horizontalAlignment = Alignment.CenterHorizontally) {
-                val colorDorado = colorResource(id = R.color.dorado)
+                val colorDorado = colorResource(id = R.color.black)
 
 
                 Button(onClick = { navegationHostController.navigate("view_2") },
                     colors = ButtonDefaults.buttonColors(colorDorado)) {
-                    Text(text = "ENVIAR")
+                    Text(text = "I N G R E S A R")
                 }
                 Puntos(pagerState)
             }

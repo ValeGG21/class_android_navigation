@@ -24,20 +24,20 @@ import com.example.actividad_compose_navegation.R
 
 @Composable
 fun Section_4(navegationHostController: NavHostController) {
-    val items = listOf("Maíz", "Trigo", "Leche", "Carne", "Tomate", "Arroz", "Huevo", "Papa", "Cerdo",
-        "Frijol", "Cebada", "Pollo"
-    )
+    val items = listOf("Tractor", "Semillas", "Fertilizante", "Invernadero", "Riego", "Cosechadora", "Arado", "Compost", "Herbicida",
+        "Pesticida", "Cultivo hidropónico", "Dron agrícola")
 
-    val imgs = listOf(R.drawable.campo, R.drawable.cosecha, R.drawable.gallina, R.drawable.palatierra,
-        R.drawable.tecnologiacampo, R.drawable.vaca
+
+    val imgs = listOf(R.drawable.page4, R.drawable.page4_2, R.drawable.page43, R.drawable.page44,
+        R.drawable.page45, R.drawable.page46, R.drawable.page47, R.drawable.page48,R.drawable.page49,R.drawable.page410,R.drawable.page411
     )
     val mix = listOf(
-        "Maíz", R.drawable.campo,
-        "Trigo", R.drawable.cosecha,
-        "Leche", R.drawable.gallina,
-        "Carne", R.drawable.palatierra,
-        "Tomate", R.drawable.tecnologiacampo,
-        "Arroz", R.drawable.vaca
+        "Agricultor", R.drawable.agricultor,
+        "Ganado", R.drawable.ganado,
+        "Sostenibilidad", R.drawable.sostenible,
+        "Campos Tecnológicos", R.drawable.campo,
+        "Herramientas", R.drawable.herramientas,
+        "Cosechas", R.drawable.verduras
     )
 
 
@@ -92,7 +92,7 @@ fun Section_4(navegationHostController: NavHostController) {
                     modifier = Modifier.fillMaxWidth().padding(100.dp, 0.dp),
                     colors = ButtonDefaults.buttonColors(colorDorado)
                 ) {
-                    Text(text = "VOLVER")
+                    Text(text = "R E G R E S A R")
                 }
             }
         }
