@@ -5,7 +5,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.compose.composable
 import com.example.actividad_compose_navegation.screen.Horizontal
-import com.example.actividad_compose_navegation.screen.Section_4
+import com.example.actividad_compose_navegation.screen.parte4
+import com.example.actividad_compose_navegation.screen.parte4
 
 @Composable
 fun NavComponent(){
@@ -15,7 +16,7 @@ fun NavComponent(){
             Horizontal(navegationController)
         }
         composable(route="view_2"){
-            Section_4(navegationController)
+            parte4(navegationController)
         }
     }
 }

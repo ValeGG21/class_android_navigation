@@ -23,7 +23,7 @@ import com.example.actividad_compose_navegation.R
 
 
 @Composable
-fun Section_4(navegationHostController: NavHostController) {
+fun parte4(navegationHostController: NavHostController) {
     val items = listOf("Tractor", "Semillas", "Fertilizante", "Invernadero", "Riego", "Cosechadora", "Arado", "Compost", "Herbicida",
         "Pesticida", "Cultivo hidropónico", "Dron agrícola")
 

@@ -34,7 +34,7 @@ fun Section_3(navegationHostController: NavHostController, pagerState: PagerStat
             horizontalAlignment = Alignment.CenterHorizontally) {
             val colorDorado = colorResource(id = R.color.dorado)
             Filas(img = R.drawable.page3, descript = "imagen3")
-            Text(text = "Si deseas conocer más sobre el agro dale \"INGRESAR\" ",
+            Text(text = "Si deseas conocer más sobre la agropecuria dale \"CLICK\" ",
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(20.dp),
